@@ -11,8 +11,8 @@ topFrame.pack() # Pack frame in window
 bottomFrame = Frame(root)
 bottomFrame.pack(side=BOTTOM) # Packing bottom Frame 
 
-button = Button(bottomFrame,text="Sart Blast",fg="purple")
-button.pack()
+button1 = Button(root,text="Start Blast",fg="purple")
+button1.pack(fill=X)
 
 
 thelabel = Label(root,text="Blast++ Wrapper Tutorial") #created a label
