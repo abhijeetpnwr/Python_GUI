@@ -8,7 +8,7 @@ def hello():
     print "hello!"
 
 def save():
-	print "Ohk I will save file later"
+	print "Ohk"
 
 # create a toplevel menu
 menubar = Menu(root)
@@ -22,5 +22,15 @@ menubar.add_cascade(label="file",menu=pulldownmwnu)
 
 # display the menu
 root.config(menu=menubar)
+
+
+toolbar = Frame(root,bg="blue")
+toolbar.pack(side=TOP,fill=X)
+
+copybtn = Button(toolbar,text="copy icon")
+copybtn.pack(side=LEFT,padx=10,pady=10)
+
+pastebtn = Button(toolbar,text="paste icon")
+pastebtn.pack(side=LEFT,padx=10,pady=10)
 
 root.mainloop()
