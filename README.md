@@ -1,4 +1,4 @@
-#Motive of project is to understand Python GI programming 
+#Motive of project is to understand Python GUI programming 
 
 Steps:
 
